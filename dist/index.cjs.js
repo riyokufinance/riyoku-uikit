@@ -1763,10 +1763,10 @@ var Modal = function (_a) {
         React__default['default'].createElement(ModalHeader, null,
             React__default['default'].createElement(ModalTitle, null,
                 onBack && (React__default['default'].createElement(IconButton, { variant: "text", onClick: onBack, "area-label": "go back", mr: "8px" },
-                    React__default['default'].createElement(Icon$5, { color: "primary" }))),
+                    React__default['default'].createElement(Icon$5, { color: "input" }))),
                 React__default['default'].createElement(Heading, null, title)),
             !hideCloseButton && (React__default['default'].createElement(IconButton, { variant: "text", onClick: onDismiss, "aria-label": "Close the dialog" },
-                React__default['default'].createElement(Icon$k, { color: "primary" })))),
+                React__default['default'].createElement(Icon$k, { color: "input" })))),
         React__default['default'].createElement(Flex, { flexDirection: "column", p: bodyPadding }, children)));
 };
 var templateObject_1$u, templateObject_2$9, templateObject_3$5;
@@ -2513,7 +2513,7 @@ var WalletCard = function (_a) {
             window.localStorage.setItem(localStorageKey, "1");
             onDismiss();
         }, style: { justifyContent: "space-between" }, mb: mb, id: "wallet-connect-" + title.toLocaleLowerCase() },
-        React__default['default'].createElement(Text, { bold: true, color: "primary", mr: "16px" }, title),
+        React__default['default'].createElement(Text, { bold: true, color: "#0f3538", mr: "16px" }, title),
         React__default['default'].createElement(Icon, { width: "32px" })));
 };
 
@@ -2789,7 +2789,7 @@ var templateObject_1$K;
 
 var baseColors = {
     failure: "#ED4B9E",
-    primary: "#FFCACF",
+    primary: "#ffa0a8",
     primaryBright: "#fbcace",
     primaryDark: "#ffa0a8",
     secondary: "#7645D9",
@@ -2822,8 +2822,8 @@ var light$1 = (_a$2 = {},
         backgroundHover: lightColors.primaryBright,
         border: 0,
         borderColorHover: "currentColor",
-        boxShadow: "inset 0px -1px 0px rgba(14, 14, 44, 0.4)",
-        boxShadowActive: "inset 0px -1px 0px rgba(14, 14, 44, 0.4)",
+        boxShadow: "inset 0px -1px 0px rgba(195, 125, 38, 0.4)",
+        boxShadowActive: "inset 0px -1px 0px rgba(195, 125, 38, 0.4)",
         color: lightColors.textSubtle,
     },
     _a$2[SECONDARY] = {

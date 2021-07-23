@@ -10,8 +10,8 @@ export const light: ButtonTheme = {
     backgroundHover: lightColors.primaryBright,
     border: 0,
     borderColorHover: "currentColor",
-    boxShadow: "inset 0px -1px 0px rgba(14, 14, 44, 0.4)",
-    boxShadowActive: "inset 0px -1px 0px rgba(14, 14, 44, 0.4)",
+    boxShadow: "inset 0px -1px 0px rgba(195, 125, 38, 0.4)",
+    boxShadowActive: "inset 0px -1px 0px rgba(195, 125, 38, 0.4)",
     color: lightColors.textSubtle,
   },
   [SECONDARY]: {
