@@ -12,7 +12,7 @@ export const light: ButtonTheme = {
     borderColorHover: "currentColor",
     boxShadow: "inset 0px -1px 0px rgba(14, 14, 44, 0.4)",
     boxShadowActive: "inset 0px -1px 0px rgba(14, 14, 44, 0.4)",
-    color: "#FFFFFF",
+    color: lightColors.textSubtle,
   },
   [SECONDARY]: {
     background: "transparent",
@@ -79,6 +79,7 @@ export const light: ButtonTheme = {
 export const dark: ButtonTheme = {
   [PRIMARY]: {
     ...light.primary,
+    color: darkColors.textSubtle,
   },
   [SECONDARY]: {
     ...light.secondary,
