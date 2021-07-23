@@ -1750,10 +1750,10 @@ var Modal = function (_a) {
         React.createElement(ModalHeader, null,
             React.createElement(ModalTitle, null,
                 onBack && (React.createElement(IconButton, { variant: "text", onClick: onBack, "area-label": "go back", mr: "8px" },
-                    React.createElement(Icon$5, { color: "input" }))),
+                    React.createElement(Icon$5, { color: "primary" }))),
                 React.createElement(Heading, null, title)),
             !hideCloseButton && (React.createElement(IconButton, { variant: "text", onClick: onDismiss, "aria-label": "Close the dialog" },
-                React.createElement(Icon$k, { color: "input" })))),
+                React.createElement(Icon$k, { color: "primary" })))),
         React.createElement(Flex, { flexDirection: "column", p: bodyPadding }, children)));
 };
 var templateObject_1$u, templateObject_2$9, templateObject_3$5;
@@ -2776,7 +2776,7 @@ var templateObject_1$K;
 
 var baseColors = {
     failure: "#ED4B9E",
-    primary: "#ffa0a8",
+    primary: "#054011",
     primaryBright: "#fbcace",
     primaryDark: "#ffa0a8",
     secondary: "#7645D9",
@@ -2804,9 +2804,9 @@ var _a$2, _b;
 var PRIMARY = variants.PRIMARY, SECONDARY = variants.SECONDARY, TERTIARY = variants.TERTIARY, TEXT = variants.TEXT, DANGER = variants.DANGER, SUBTLE = variants.SUBTLE, SUCCESS = variants.SUCCESS;
 var light$1 = (_a$2 = {},
     _a$2[PRIMARY] = {
-        background: lightColors.primary,
-        backgroundActive: lightColors.primaryDark,
-        backgroundHover: lightColors.primaryBright,
+        background: '#ffcacf',
+        backgroundActive: '#ffcacf',
+        backgroundHover: '#fbcace',
         border: 0,
         borderColorHover: "currentColor",
         boxShadow: "inset 0px -1px 0px rgba(195, 125, 38, 0.4)",
