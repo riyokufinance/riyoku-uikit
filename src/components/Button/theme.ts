@@ -5,9 +5,9 @@ const { PRIMARY, SECONDARY, TERTIARY, TEXT, DANGER, SUBTLE, SUCCESS } = variants
 
 export const light: ButtonTheme = {
   [PRIMARY]: {
-    background: lightColors.primary,
-    backgroundActive: lightColors.primaryDark,
-    backgroundHover: lightColors.primaryBright,
+    background: '#ffcacf',
+    backgroundActive: '#ffcacf',
+    backgroundHover: '#fbcace',
     border: 0,
     borderColorHover: "currentColor",
     boxShadow: "inset 0px -1px 0px rgba(195, 125, 38, 0.4)",
