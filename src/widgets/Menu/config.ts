@@ -117,7 +117,7 @@ export const socials = [
   {
     label: "Telegram",
     icon: "TelegramIcon",
-    href: "https://t.me/riyokutv"
+    href: "https://t.me/RiyokuTVofficial"
   },
   {
     label: "Twitter",
